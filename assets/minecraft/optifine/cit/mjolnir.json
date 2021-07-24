@@ -1,0 +1,110 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/mjolnir",
+		"particle": "block/mjolnir"
+	},
+	"elements": [
+		{
+			"name": "Metal",
+			"from": [4, 9, 5],
+			"to": [12, 15, 11],
+			"faces": {
+				"north": {"uv": [3, 3, 7, 6], "texture": "#0"},
+				"east": {"uv": [0, 3, 3, 6], "texture": "#0"},
+				"south": {"uv": [10, 3, 14, 6], "texture": "#0"},
+				"west": {"uv": [7, 3, 10, 6], "texture": "#0"},
+				"up": {"uv": [7, 3, 3, 0], "texture": "#0"},
+				"down": {"uv": [11, 0, 7, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Strap",
+			"from": [5, -5.2, 8],
+			"to": [8, 0.8, 8.1],
+			"faces": {
+				"north": {"uv": [13, 13, 14.5, 16], "texture": "#0"},
+				"east": {"uv": [13, 13, 13, 16], "texture": "#0"},
+				"south": {"uv": [14.5, 13, 16, 16], "texture": "#0"},
+				"west": {"uv": [14.5, 13, 14.5, 16], "texture": "#0"},
+				"up": {"uv": [14.5, 13, 13, 13], "texture": "#0"},
+				"down": {"uv": [16, 13, 14.5, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Counterweight",
+			"from": [7, 0, 7],
+			"to": [9, 1, 9],
+			"faces": {
+				"north": {"uv": [8, 15.5, 9, 16], "texture": "#0"},
+				"east": {"uv": [7, 15.5, 8, 16], "texture": "#0"},
+				"south": {"uv": [10, 15.5, 11, 16], "texture": "#0"},
+				"west": {"uv": [9, 15.5, 10, 16], "texture": "#0"},
+				"up": {"uv": [9, 15.5, 8, 14.5], "texture": "#0"},
+				"down": {"uv": [10, 14.5, 9, 15.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Handle",
+			"from": [7.5, 1, 7.5],
+			"to": [8.5, 9, 8.5],
+			"faces": {
+				"north": {"uv": [0.5, 12, 1, 16], "texture": "#0"},
+				"east": {"uv": [0, 12, 0.5, 16], "texture": "#0"},
+				"south": {"uv": [1.5, 12, 2, 16], "texture": "#0"},
+				"west": {"uv": [1, 12, 1.5, 16], "texture": "#0"},
+				"up": {"uv": [1, 12, 0.5, 11.5], "texture": "#0"},
+				"down": {"uv": [1.5, 11.5, 1, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Metal Tip",
+			"from": [3, 9.5, 5.5],
+			"to": [13, 14.5, 10.5],
+			"faces": {
+				"north": {"uv": [2.5, 8.5, 7.5, 11], "texture": "#0"},
+				"east": {"uv": [0, 8.5, 2.5, 11], "texture": "#0"},
+				"south": {"uv": [10, 8.5, 15, 11], "texture": "#0"},
+				"west": {"uv": [7.5, 8.5, 10, 11], "texture": "#0"},
+				"up": {"uv": [7.5, 8.5, 2.5, 6], "texture": "#0"},
+				"down": {"uv": [12.5, 6, 7.5, 8.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-5, -90, 0],
+			"translation": [0, 3.25, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-5, 90, 0],
+			"translation": [0, 2.25, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0]
+		},
+		"ground": {
+			"rotation": [-180, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [33, 2, 31],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"fixed": {
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "mjolnir",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}
